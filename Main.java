@@ -54,7 +54,7 @@ final class Main {
         System.out.println("New speed: " + bigTruck.getSpeed());
 
         System.out.println("\nBreaking, 10 of power for 10 sec.");
-        bigTruck.accelerate(-10, 10);
+        bigTruck.accelerate(10, 10);
         System.out.println("New speed: " + bigTruck.getSpeed());
 
         System.out.println("\nApplied air pressure of 10:");
