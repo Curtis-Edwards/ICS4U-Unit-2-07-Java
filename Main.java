@@ -32,7 +32,7 @@ final class Main {
         final int fortyNumber = 40;
         final int fifteenNumber = 15;
         final int twoHundredNumber = 200;
-        final string newSpeedSting = "New speed: "
+        final string newSpeedSting = "New speed: ";
 
         final Bike bmx = new Bike("Red", fortyNumber);
 
