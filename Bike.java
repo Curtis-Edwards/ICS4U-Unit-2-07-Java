@@ -10,12 +10,14 @@
 * This is the Bike class.
 */
 public class Bike extends Vehicle {
-    // variables
+    /**
+     * The caadence of the bike.
+     */
     private int cadence;
 
     /**
      * Constructor to initialize a bike.
-     * 
+     *
      * @param color    The color of the bike.
      * @param maxSpeed The maximum speed of the bike.
      */
@@ -26,7 +28,7 @@ public class Bike extends Vehicle {
 
     /**
      * Gets the cadence of the bike.
-     * 
+     *
      * @return The cadence of the bike.
      */
     public int getCadence() {
@@ -35,7 +37,7 @@ public class Bike extends Vehicle {
 
     /**
      * Sets the cadence of the bike.
-     * 
+     *
      * @param cadence The cadence to set.
      */
     public void setCadence(int cadence) {
@@ -52,7 +54,7 @@ public class Bike extends Vehicle {
 
     /*
      * The accelerate method.
-     * 
+     *
      * @param appliedPower The power of acceleration.
      */
     public void accelerate(int appliedPower) {
