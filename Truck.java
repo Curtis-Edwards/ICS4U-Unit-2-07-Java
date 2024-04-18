@@ -10,7 +10,7 @@
 * This is the Truck class.
 */
 public class Truck extends Vehicle {
-     /*
+     /**
      * The licensePlateNumber of the truck.
      */
     private String licensePlateNumber;
@@ -45,7 +45,7 @@ public class Truck extends Vehicle {
         this.licensePlateNumber = licensePlateNumber;
     }
 
-    /*
+    /**
      * The status method.
      */
     public void status() {
@@ -53,7 +53,7 @@ public class Truck extends Vehicle {
         System.out.println(" -> License Plate: " + licensePlateNumber);
     }
 
-    /*
+    /**
      * The applyAir method.
      *
      * @param airPressure The air pressure to apply.
