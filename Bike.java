@@ -21,7 +21,7 @@ public class Bike extends Vehicle {
      */
     public Bike(String color, int maxSpeed) {
         super(color, maxSpeed);
-        this.cadence = DEFAULT_CADENCE;
+        this.cadence = 0;
     }
 
     /**
