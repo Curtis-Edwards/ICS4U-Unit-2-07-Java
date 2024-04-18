@@ -32,8 +32,9 @@ final class Main {
         final int fortyNumber = 40;
         final int fifteenNumber = 15;
         final int twoHundredNumber = 200;
+        final string newSpeedSting = "New speed: "
 
-        Bike bmx = new Bike("Red", fortyNumber);
+        final Bike bmx = new Bike("Red", fortyNumber);
 
         System.out.println("Created Bmx bike.\nStatus:\n");
         bmx.status();
@@ -49,23 +50,22 @@ final class Main {
         System.out.println("\nRing bell.");
         bmx.ringBell();
 
-
-        Truck bigTruck = new Truck("Grey", twoHundredNumber, "HGC-3456F");
+        final Truck bigTruck = new Truck("Grey", twoHundredNumber, "HGC-3456F");
 
         System.out.println("Created a Truck.\nStatus:\n");
         bigTruck.status();
 
         System.out.println("\nAccelerating, 10 of power for ten seconds:");
         bigTruck.accelerate(tenNumber, tenNumber);
-        System.out.println("New speed: " + bigTruck.getSpeed());
+        System.out.println(newSpeedSting + bigTruck.getSpeed());
 
         System.out.println("\nBreaking, 10 of power for 10 sec.");
         bigTruck.accelerate(tenNumber, tenNumber);
-        System.out.println("New speed: " + bigTruck.getSpeed());
+        System.out.println(newSpeedSting + bigTruck.getSpeed());
 
         System.out.println("\nApplied air pressure of 10:");
         bigTruck.applyAir(tenNumber);
-        System.out.println("New speed: " + bigTruck.getSpeed());
+        System.out.println(newSpeedSting + bigTruck.getSpeed());
 
         System.out.println("\nDone.");
     }
