@@ -10,14 +10,24 @@
 * This is the Vehicle class.
 */
 public class Vehicle {
-    // variables
+    /**
+     * The color of the bike.
+     */
     private String color;
+
+    /**
+     * The maxSpeed of the bike.
+     */
     private final int maxSpeed;
+
+    /**
+     * The speed of the bike.
+     */
     protected  int speed;
 
     /**
      * Constructor to initialize a vehicle.
-     * 
+     *
      * @param color    The color of the vehicle.
      * @param maxSpeed The maximum speed of the vehicle.
      */
@@ -29,7 +39,7 @@ public class Vehicle {
 
     /**
      * Gets the color of the vehicle.
-     * 
+     *
      * @return The color of the vehicle.
      */
     public String getColor() {
@@ -38,7 +48,7 @@ public class Vehicle {
 
     /**
      * Gets the current speed of the vehicle.
-     * 
+     *
      * @return The current speed of the vehicle.
      */
     public int getSpeed() {
@@ -47,7 +57,7 @@ public class Vehicle {
 
     /**
      * Gets the maximum speed of the vehicle.
-     * 
+     *
      * @return The maximum speed of the vehicle.
      */
     public int getMaxSpeed() {
@@ -56,7 +66,7 @@ public class Vehicle {
 
     /**
      * Sets the color of the vehicle.
-     * 
+     *
      * @param color The color to set.
      */
     public void setColor(String color) {
@@ -74,7 +84,7 @@ public class Vehicle {
 
     /*
      * The accelerate method.
-     * 
+     *
      * @param accelerationPower The power of acceleration.
      * @param accelerationTime  The time for acceleration.
      */
@@ -88,7 +98,7 @@ public class Vehicle {
 
     /*
      * The break method.
-     * 
+     *
      * @param brakePower The power of the brake.
      * @param brakeTime  The time for braking.
      */
