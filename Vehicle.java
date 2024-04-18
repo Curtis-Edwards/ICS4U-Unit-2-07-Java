@@ -23,7 +23,7 @@ public class Vehicle {
     /**
      * The speed of the bike.
      */
-    private int speed;
+    protected int speed;
 
     /**
      * Constructor to initialize a vehicle.
