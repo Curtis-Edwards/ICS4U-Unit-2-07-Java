@@ -10,9 +10,9 @@
 * This is the Truck class.
 */
 public class Truck extends Vehicle {
-     /**
-     * The licensePlateNumber of the truck.
-     */
+    /**
+    * The licensePlateNumber of the truck.
+    */
     private String licensePlateNumber;
 
     /**
