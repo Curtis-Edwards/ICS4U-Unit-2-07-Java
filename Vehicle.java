@@ -15,8 +15,11 @@ public class Vehicle {
     private final int maxSpeed;
     protected  int speed;
 
-    /*
-     * Constructor.
+    /**
+     * Constructor to initialize a vehicle.
+     * 
+     * @param color    The color of the vehicle.
+     * @param maxSpeed The maximum speed of the vehicle.
      */
     public Vehicle(String color, int maxSpeed) {
         this.color = color;
@@ -24,29 +27,37 @@ public class Vehicle {
         this.speed = 0;
     }
 
-    /*
-     * Gets the color.
+    /**
+     * Gets the color of the vehicle.
+     * 
+     * @return The color of the vehicle.
      */
     public String getColor() {
         return color;
     }
 
-    /*
-     * Gets the speed.
+    /**
+     * Gets the current speed of the vehicle.
+     * 
+     * @return The current speed of the vehicle.
      */
     public int getSpeed() {
         return speed;
     }
 
-    /*
-     * Gets the max speed.
+    /**
+     * Gets the maximum speed of the vehicle.
+     * 
+     * @return The maximum speed of the vehicle.
      */
     public int getMaxSpeed() {
         return maxSpeed;
     }
 
-    /*
-     * Sets the color.
+    /**
+     * Sets the color of the vehicle.
+     * 
+     * @param color The color to set.
      */
     public void setColor(String color) {
         this.color = color;
@@ -63,6 +74,9 @@ public class Vehicle {
 
     /*
      * The accelerate method.
+     * 
+     * @param accelerationPower The power of acceleration.
+     * @param accelerationTime  The time for acceleration.
      */
     public void accelerate(int accelerationPower, int accelerationTime) {
         speed = (accelerationPower * accelerationTime) + speed;
@@ -74,6 +88,9 @@ public class Vehicle {
 
     /*
      * The break method.
+     * 
+     * @param brakePower The power of the brake.
+     * @param brakeTime  The time for braking.
      */
     public void brake(int brakePower, int brakeTime) {
         speed = speed - (brakePower * brakeTime);
