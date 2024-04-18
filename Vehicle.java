@@ -73,7 +73,7 @@ public class Vehicle {
         this.color = color;
     }
 
-    /*
+    /**
      * The status method.
      */
     public void status() {
@@ -82,7 +82,7 @@ public class Vehicle {
         System.out.println(" -> Color: " + color);
     }
 
-    /*
+    /**
      * The accelerate method.
      *
      * @param accelerationPower The power of acceleration.
@@ -96,7 +96,7 @@ public class Vehicle {
         }
     }
 
-    /*
+    /**
      * The break method.
      *
      * @param brakePower The power of the brake.
