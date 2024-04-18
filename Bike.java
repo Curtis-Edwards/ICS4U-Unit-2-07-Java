@@ -44,7 +44,7 @@ public class Bike extends Vehicle {
         this.cadence = cadence;
     }
 
-    /*
+    /**
      * The status method.
      */
     public void status() {
@@ -52,7 +52,7 @@ public class Bike extends Vehicle {
         System.out.println(" -> Cadence: " + cadence);
     }
 
-    /*
+    /**
      * The accelerate method.
      *
      * @param appliedPower The power of acceleration.
@@ -61,7 +61,7 @@ public class Bike extends Vehicle {
         cadence += appliedPower;
     }
 
-    /*
+    /**
      * The ringBell method.
      */
     public void ringBell() {
