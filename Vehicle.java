@@ -13,7 +13,7 @@ public class Vehicle {
     // variables
     private String color;
     private final int maxSpeed;
-    private int speed;
+    protected  int speed;
 
     /*
      * Constructor.
