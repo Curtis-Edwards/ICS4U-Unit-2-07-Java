@@ -10,12 +10,14 @@
 * This is the Truck class.
 */
 public class Truck extends Vehicle {
-    // variables
+     /*
+     * The licensePlateNumber of the truck.
+     */
     private String licensePlateNumber;
 
     /**
      * Constructor to initialize a truck.
-     * 
+     *
      * @param color             The color of the truck.
      * @param maxSpeed          The maximum speed of the truck.
      * @param licensePlateNumber The license plate number of the truck.
@@ -27,7 +29,7 @@ public class Truck extends Vehicle {
 
     /**
      * Gets the license plate number of the truck.
-     * 
+     *
      * @return The license plate number of the truck.
      */
     public String getLicensePlateNumber() {
@@ -36,7 +38,7 @@ public class Truck extends Vehicle {
 
     /**
      * Sets the license plate number of the truck.
-     * 
+     *
      * @param licensePlateNumber The license plate number to set.
      */
     public void setLicensePlateNumber(String licensePlateNumber) {
@@ -53,7 +55,7 @@ public class Truck extends Vehicle {
 
     /*
      * The applyAir method.
-     * 
+     *
      * @param airPressure The air pressure to apply.
      */
     public void applyAir(int airPressure) {
